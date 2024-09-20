@@ -28,3 +28,19 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+
+Usage
+Add Tags: Type a word and press Enter or comma (,) to add a tag.
+Remove Tags: Click the delete icon next to a tag or use backspace to remove it from the input.
+Validation (Optional): Customize validation rules such as preventing duplicates or limiting the number of tags.
+
+Tag Validation: Implement custom validation rules (e.g., no special characters).
+Example
+When you open the app, you will:
+
+See an input field that allows you to add tags by typing and pressing Enter or a separator.
+View tags appear above or below the input field, with an option to delete them.
+Input is cleared after a tag is added, making it ready for the next tag.
+Dependencies
+React: Frontend framework for building the UI.
+CSS Modules or Styled Components: For styling the input field and tags.
